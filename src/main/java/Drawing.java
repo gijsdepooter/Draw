@@ -1,7 +1,3 @@
-import Shapes.Circle;
-import Shapes.Rect;
-import Shapes.Square;
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -19,6 +15,7 @@ public class Drawing extends Canvas {
         Point ps=new Point(100,300);
         Color c=new Color(0x992266);
         Color csq=new Color(-204);
+
 
 
         circ = new Circle(p,c,30);
