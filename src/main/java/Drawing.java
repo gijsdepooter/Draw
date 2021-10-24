@@ -1,3 +1,6 @@
+import Shapes.Circle;
+import Shapes.Square;
+import Shapes.Rect;
 import java.awt.*;
 import java.awt.event.*;
 
