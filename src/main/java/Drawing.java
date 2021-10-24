@@ -14,11 +14,12 @@ public class Drawing extends Canvas {
         Point pr=new Point(100,100);
         Point ps=new Point(100,300);
         Color c=new Color(0x992266);
+        Color cs=new Color(255-0-0);
 
 
         circ = new Circle(p,c,30);
         rect = new Rect(pr,c,30,60);
-        sqr = new Square(ps,c,60);
+        sqr = new Square(ps,cs,60);
 
         window();
         window_settings();
